@@ -1,0 +1,258 @@
+[INFO] Starting AuthServiceApplication on DESKTOP-UFDN7E9 with PID 13048 (D:\PerfilSamuel\Escritorio\AUTH-BACKEND\target\classes started by Samuel in D:\PerfilSamuel\Escritorio\AUTH-BACKEND)
+[INFO] No active profile set, falling back to default profiles: default
+[INFO] Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO] Finished Spring Data repository scanning in 36ms. Found 1 repository interfaces.
+[INFO] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$84f7e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@70cccd8f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a9cc8a1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] Tomcat initialized with port(s): 8081 (http)
+[INFO] Starting service [Tomcat]
+[INFO] Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\samco\.jdks\corretto-15.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\VMware\bin\;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\samco\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\samco\AppData\Local\Programs\Python\Python39\;C:\Python\Scripts\;C:\Python\;C:\Users\samco\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\samco\devtools\maven\3.6.3\bin;C:\nvm;C:\Program Files\nodejs;C:\Users\samco\AppData\Local\GitHubDesktop\bin;.]
+[INFO] Initializing Spring embedded WebApplicationContext
+[INFO] Root WebApplicationContext: initialization completed in 1071 ms
+[INFO] note: noprealloc may hurt performance in many applications
+[INFO] 2021-05-25T10:32:17.544+0200 I CONTROL  [initandlisten] MongoDB starting : pid=18384 port=27017 dbpath=C:\Users\samco\AppData\Local\Temp\embedmongo-db-e648eeba-07a0-4a09-9e0a-e84dd30c36db 64-bit host=DESKTOP-UFDN7E9
+[INFO] 2021-05-25T10:32:17.545+0200 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+[INFO] 2021-05-25T10:32:17.545+0200 I CONTROL  [initandlisten] db version v3.5.5
+[INFO] 2021-05-25T10:32:17.545+0200 I CONTROL  [initandlisten] git version: 98515c812b6fa893613f063dae568ff8319cbfbd
+[INFO] 2021-05-25T10:32:17.545+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+[INFO] 2021-05-25T10:32:17.545+0200 I CONTROL  [initandlisten] modules: none
+[INFO] 2021-05-25T10:32:17.545+0200 I CONTROL  [initandlisten] build environment:
+[INFO] 2021-05-25T10:32:17.545+0200 I CONTROL  [initandlisten]     distarch: x86_64
+[INFO] 2021-05-25T10:32:17.545+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+[INFO] 2021-05-25T10:32:17.545+0200 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 27017 }, security: { authorization: "disabled" }, storage: { dbPath: "C:\Users\samco\AppData\Local\Temp\embedmongo-db-e648eeba-07a0-4a09-9e0a-e84dd30c36db", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true } } }
+[INFO] 2021-05-25T10:32:17.546+0200 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7636M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),,log=(enabled=false),
+[INFO] 2021-05-25T10:32:17.615+0200 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+[INFO] 2021-05-25T10:32:17.615+0200 I CONTROL  [initandlisten] 
+[INFO] 2021-05-25T10:32:17.615+0200 I CONTROL  [initandlisten] ** NOTE: This is a development version (3.5.5) of MongoDB.
+[INFO] 2021-05-25T10:32:17.615+0200 I CONTROL  [initandlisten] **       Not recommended for production.
+[INFO] 2021-05-25T10:32:17.615+0200 I CONTROL  [initandlisten] 
+[INFO] 2021-05-25T10:32:18.000+0200 W FTDC     [initandlisten] Failed to initialize Performance Counters for FTDC: WindowsPdhError: PdhExpandCounterPathW failed with 'El objeto especificado no se encontró en el equipo.' for counter '\Memory\Available Bytes'
+[INFO] 2021-05-25T10:32:18.000+0200 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/samco/AppData/Local/Temp/embedmongo-db-e648eeba-07a0-4a09-9e0a-e84dd30c36db/diagnostic.data'
+[INFO] 2021-05-25T10:32:18.024+0200 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+[INFO] 2021-05-25T10:32:18.024+0200 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+[INFO] 2021-05-25T10:32:18.026+0200 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+[INFO] 2021-05-25T10:32:18.027+0200 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+[INFO] 2021-05-25T10:32:18.028+0200 I NETWORK  [thread1] waiting for connections on port 27017
+[INFO] start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@6661d8c0
+[INFO] Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO] Adding discovered server localhost:27017 to client view of cluster
+[INFO] 2021-05-25T10:32:18.443+0200 I NETWORK  [thread1] connection accepted from 127.0.0.1:7499 #1 (1 connection now open)
+[INFO] 2021-05-25T10:32:18.447+0200 I NETWORK  [conn1] received client metadata from 127.0.0.1:7499 conn1: { driver: { name: "mongo-java-driver", version: "3.8.2" }, os: { type: "Windows", name: "Windows 10", architecture: "amd64", version: "10.0" }, platform: "Java/Amazon.com Inc./15.0.2+7" }
+[INFO] Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+[INFO] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 5, 5]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=676600}
+[INFO] Discovered cluster type of STANDALONE
+[INFO] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@145a821d, org.springframework.security.web.context.SecurityContextPersistenceFilter@17d2b646, org.springframework.security.web.header.HeaderWriterFilter@2e349cf2, org.springframework.web.filter.CorsFilter@2c8ff67, org.springframework.security.web.authentication.logout.LogoutFilter@23bd047f, com.iesvi.samuel.authbackend.infra.config.JwtTokenAuthenticationFilter@6caa4dc5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6eaa6b0c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79308a2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ed51944, org.springframework.security.web.session.SessionManagementFilter@27502e5c, org.springframework.security.web.access.ExceptionTranslationFilter@6aa6c17, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77ff14ce]
+[INFO] Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO] Tomcat started on port(s): 8081 (http) with context path ''
+[INFO] Started AuthServiceApplication in 3.823 seconds (JVM running for 4.223)
+[INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] Initializing Servlet 'dispatcherServlet'
+[INFO] Completed initialization in 13 ms
+[INFO] 2021-05-25T10:32:20.235+0200 I NETWORK  [thread1] connection accepted from 127.0.0.1:7508 #2 (2 connections now open)
+[INFO] 2021-05-25T10:32:20.236+0200 I NETWORK  [conn2] received client metadata from 127.0.0.1:7508 conn2: { driver: { name: "mongo-java-driver", version: "3.8.2" }, os: { type: "Windows", name: "Windows 10", architecture: "amd64", version: "10.0" }, platform: "Java/Amazon.com Inc./15.0.2+7" }
+[INFO] Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+[INFO] Recuperando usuario samsam
+[INFO] Creando usuario samsam
+[INFO] Registrando al usuario samsam
+[INFO] Creando usuario dosdos
+[INFO] Registrando al usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] 2021-05-25T10:37:24.620+0200 I NETWORK  [thread1] connection accepted from 127.0.0.1:7623 #3 (3 connections now open)
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] 2021-05-25T10:37:24.622+0200 I NETWORK  [conn3] received client metadata from 127.0.0.1:7623 conn3: { driver: { name: "mongo-java-driver", version: "3.8.2" }, os: { type: "Windows", name: "Windows 10", architecture: "amd64", version: "10.0" }, platform: "Java/Amazon.com Inc./15.0.2+7" }
+[INFO] Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:27017
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando usuario dosdos
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando usuario samsam
+[INFO] Recuperando todos los usuarios.
+[INFO] Recuperando todos los usuarios.
