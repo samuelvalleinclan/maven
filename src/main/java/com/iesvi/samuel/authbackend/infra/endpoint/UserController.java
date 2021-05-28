@@ -1,4 +1,4 @@
-package com.iesvi.samuel.authbackend.infra.controller;
+package com.iesvi.samuel.authbackend.infra.endpoint;
 
 import com.iesvi.samuel.authbackend.domain.exception.ResourceNotFoundException;
 import com.iesvi.samuel.authbackend.domain.model.InstaUserDetails;

@@ -56,7 +56,7 @@ public class UserService {
         }
         user.setActive(true);
         user.setPassword(passwordEncoder.encode(user.getPassword()));
-        user.setRoles(new HashSet<>() {{
+        user.setRoles(new HashSet<Role>() {{
             add(role);
         }});
 

@@ -1,4 +1,4 @@
-package com.iesvi.samuel.authbackend.infra.controller;
+package com.iesvi.samuel.authbackend.infra.endpoint;
 
 
 import com.iesvi.samuel.authbackend.application.payload.*;
@@ -26,19 +26,17 @@ import java.net.URI;
 @Slf4j
 public class AuthController {
 
-    @Autowired
-    private UserService userService;
-    @Autowired
-    private FacebookService facebookService;
+    @Autowired private UserService userService;
+    @Autowired private FacebookService facebookService;
 
     @PostMapping("/signin")
     public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginRequest loginRequest) {
         String token = userService.loginUser(loginRequest.getUsername(), loginRequest.getPassword());
         return ResponseEntity.ok(new JwtAuthenticationResponse(token));
-    } 
+    }
 
     @PostMapping("/facebook/signin")
-    public ResponseEntity<?> facebookAuth(@Valid @RequestBody FacebookLoginRequest facebookLoginRequest) {
+    public  ResponseEntity<?> facebookAuth(@Valid @RequestBody FacebookLoginRequest facebookLoginRequest) {
         log.info("Facebook login {}", facebookLoginRequest);
         String token = facebookService.loginUser(facebookLoginRequest.getAccessToken());
         return ResponseEntity.ok(new JwtAuthenticationResponse(token));
@@ -72,6 +70,6 @@ public class AuthController {
 
         return ResponseEntity
                 .created(location)
-                .body(new ApiResponse(true, "Usuario registrado correctamente."));
+                .body(new ApiResponse(true,"Usuario registrado correctamente."));
     }
 }

@@ -26,10 +26,9 @@ public class FacebookService {
     private JwtTokenProvider tokenProvider;
 
     public String loginUser(String fbAccessToken) {
-        var facebookUser = facebookClient.getUser(fbAccessToken);
+        FacebookUser facebookUser = facebookClient.getUser(fbAccessToken);
 
         return userService.findById(facebookUser.getId())
-                .or(() -> Optional.ofNullable(userService.registerUser(convertTo(facebookUser), Role.FACEBOOK_USER)))
                 .map(InstaUserDetails::new)
                 .map(userDetails -> new UsernamePasswordAuthenticationToken(
                         userDetails, null, userDetails.getAuthorities()))
